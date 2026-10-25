@@ -1,7 +1,3 @@
-# Tip Time
-
-Tip Time est une petite application Android que j'ai faite avec Android Studio, en Kotlin et Jetpack Compose. Elle sert à calculer le pourboire à partir du montant d'une facture.
-
 ## Ce que fait l'application
 
 Quand on ouvre l'application, on voit un texte "Calculate Tip", une zone de texte appelée "Bill Amount" et un texte "Tip Amount" qui affiche le pourboire. On tape le montant de la facture dans la zone de texte, avec un clavier qui contient seulement des chiffres. L'application calcule alors 15 % de ce montant et l'affiche en dessous. Par exemple, si je tape 100, elle affiche Tip Amount: $15.00. Le symbole de la monnaie dépend de la langue du téléphone ou de l'émulateur.
